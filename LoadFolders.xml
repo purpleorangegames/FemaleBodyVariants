@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <loadFolders>
-  <v1.7>
-    <li>Common</li>
-    <li>1.7</li>
-  </v1.7>
-  <v1.6>
-    <li>Common</li>
-    <li>1.6</li>
-  </v1.6>
   <!-- 1.4 and 1.5 use the old dll, it always loads the _Female texture so it needs the placeholder copies -->
-  <v1.5>
-    <li>Common</li>
-    <li>Legacy/Placeholders</li>
-    <li>Legacy/1.5</li>
-  </v1.5>
   <v1.4>
     <li>Common</li>
     <li>Legacy/Placeholders</li>
     <li>Legacy/1.4</li>
   </v1.4>
+  <v1.5>
+    <li>Common</li>
+    <li>Legacy/Placeholders</li>
+    <li>Legacy/1.5</li>
+  </v1.5>
+  <v1.6>
+    <li>Common</li>
+    <li>1.6</li>
+  </v1.6>
+  <v1.7>
+    <li>Common</li>
+    <li>1.7</li>
+  </v1.7>
 </loadFolders>
