@@ -15,7 +15,8 @@ Naked_Hulk_Female_east.png
 Naked_Hulk_Female_north.png
 Naked_Hulk_Female_south.png
 
-It only changes the texture if one of these files exists, so this mod by itself won't change anything visually, but in conjunction with a texture mod that contains the files above you will be able to see the female variation of those three body types.
+It comes with simple female versions of these bodies, so if you don't use body retextures then just using this mod is enough to have the new body types.
+If a texture mod has the files above, they are used instead.
 It also works for fur covered bodies, like FurCovered_Thin_Female_south.png, and body tattoos follow the female body shape.
 
 Races with their own body textures are left alone, it only changes pawns using the normal vanilla body.
@@ -33,7 +34,7 @@ Requires Harmony.
 
 1.7 and 1.6 are built from the code in the Source folder.
 
-1.4 and 1.5 use the old dll I released for them (Legacy folder), it always loads the _Female texture so it also needs the placeholder copies of the vanilla bodies in Legacy/Placeholders.
+1.4 and 1.5 use the old dll I released for them (Legacy folder).
 
 ## Building
 

@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <loadFolders>
-  <!-- 1.4 and 1.5 use the old dll, it always loads the _Female texture so it needs the placeholder copies -->
+  <!-- 1.4 and 1.5 use the old dll -->
   <v1.4>
     <li>Common</li>
-    <li>Legacy/Placeholders</li>
     <li>Legacy/1.4</li>
   </v1.4>
   <v1.5>
     <li>Common</li>
-    <li>Legacy/Placeholders</li>
     <li>Legacy/1.5</li>
   </v1.5>
   <v1.6>
