@@ -1,19 +1,31 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>FemaleBodyVariants</name>
   <author>tiagocc0</author>
+  <packageId>tiagocc0.FemaleBodyVariants</packageId>
+  <modVersion>2.0.0</modVersion>
+  <url>https://github.com/purpleorangegames/FemaleBodyVariants</url>
+  <modIconPath IgnoreIfNoMatchingField="True">UI/FemaleBodyVariants</modIconPath>
   <supportedVersions>
     <li>1.4</li>
     <li>1.5</li>
+    <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
-  <modIconPath IgnoreIfNoMatchingField="True">UI/FemaleBodyVariants</modIconPath>
-  <packageId>tiagocc0.FemaleBodyVariants</packageId>
-  <loadAfter></loadAfter>
-  <url></url>
-
-  <description>
-This mod provides a way to load, on the fly, a different body texture for thin, fat and hulk females. 
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>erdelf.HumanoidAlienRaces</li>
+    <li>EBSG.Framework</li>
+  </loadAfter>
+  <description>This mod provides a way to load, on the fly, a different body texture for thin, fat and hulk females.
 It will use these names:
 
 Naked_Thin_Female_south.png
@@ -28,22 +40,17 @@ Naked_Hulk_Female_east.png
 Naked_Hulk_Female_north.png
 Naked_Hulk_Female_south.png
 
-I made a simple copy of the original textures for this mod so it won't try to load a texture that doesn't exists.
-So this mod be itself won't change anything visually, but in conjunction with a texture mode that contains the files above you will be able to see the female variation of those three body types.
+It only changes the texture if one of these files exists, so this mod by itself won't change anything visually, but in conjunction with a texture mod that contains the files above you will be able to see the female variation of those three body types.
+It also works for fur covered bodies, like FurCovered_Thin_Female_south.png, and body tattoos follow the female body shape.
 
-Anyone is free to use mod as a pre requisite for your own mod or copy the dll to your own mod.
+Races with their own body textures are left alone, it only changes pawns using the normal vanilla body.
 
-As I'm making a body retexture mod I will have this mod as a pre requisite for my future mod.
+Anyone is free to use this mod as a pre requisite for your own mod.
 
-Might not be compatible with HAR, if you are using HAR you probably don't need this anyway.
+My female body textures that use this mod, based on Beautiful Bodies from ireth92:
+https://steamcommunity.com/sharedfiles/filedetails/?id=3215805750
 
-Male pawn body texture mod: https://steamcommunity.com/sharedfiles/filedetails/?id=2068281501
-Female pawn body texture is a variation based on the mod above.
-All credit for the texture from the screenshot and my future body texture mod goes to ireth92
-https://steamcommunity.com/id/ireth92
+Non Steam version: https://github.com/purpleorangegames/FemaleBodyVariants
 
-Mod with source (This mod does not contain the textures from the screenshot):
-https://github.com/purpleorangegames/FemaleBodyVariants
-
-  </description>
+AI was used to help code/fix issues</description>
 </ModMetaData>
